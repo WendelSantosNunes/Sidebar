@@ -1,8 +1,8 @@
 # Sidebar
 
-![Página Principal](https://github.com/WendelSantosNunes/Social-Tree/blob/main/img/readme/P%C3%A1gina-principal.png?raw=true)
+![Página Principal com sidebar-fechado](https://github.com/WendelSantosNunes/Sidebar/blob/main/img/readme/Captura%20de%20tela%20de%202021-12-29%2011-26-57.png?raw=true)
 
----
+![Página Principal com sidebar-aberto](https://github.com/WendelSantosNunes/Sidebar/blob/main/img/readme/Captura%20de%20tela%20de%202021-12-29%2011-27-11.png?raw=true)
 
 ## 💻 **Tecnologias**
 
