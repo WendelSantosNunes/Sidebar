@@ -1,5 +1,5 @@
 document.querySelector('.menu-open').addEventListener('click', function () {
-  document.querySelector('.sidebar-close').style.display = 'flex'
+  document.querySelector('.sidebar-close').style.display = 'flex '
   document.querySelector('.sidebar').style.display = 'none'
 })
 
