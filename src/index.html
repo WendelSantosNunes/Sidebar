@@ -8,17 +8,73 @@
     <title>Sidebar</title>
   </head>
   <body>
+    <div class="sidebar-close">
+      <div class="logo-menu">
+        <div class="menu-close">
+          <img src="../img/menu.svg" alt="Menu" />
+        </div>
+      </div>
+      <fieldset>
+        <form action="#" class="form-pesquisa-close">
+          <img src="/img/search.svg" alt="" />
+        </form>
+      </fieldset>
+      <ul>
+        <li>
+          <a href="#">
+            <figure>
+              <img src="../img/grid.svg" alt="Grid" />
+            </figure>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <figure>
+              <img src="../img/pet.svg" alt="Pets" />
+            </figure>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <figure>
+              <img src="../img/user.svg" alt="Clientes" />
+            </figure>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <figure>
+              <img src="../img/vet.svg" alt="Vets" />
+            </figure>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <figure>
+              <img src="../img/settings.svg" alt="Ajustes" />
+            </figure>
+          </a>
+        </li>
+      </ul>
+      <div class="close">
+        <figure class="close2">
+          <img src="../img/log-out.svg" alt="Fechar sidebar" />
+        </figure>
+      </div>
+    </div>
+
     <div class="sidebar">
-      <div>
+      <div class="logo-menu">
         <div class="logo">
           <img src="../img/logo.svg" alt="Logo" />
         </div>
-        <div class="menu">
+        <div class="menu-open">
           <img src="../img/menu.svg" alt="Menu" />
         </div>
       </div>
       <fieldset>
         <form action="#" id="form-pesquisa">
+          <img src="/img/search.svg" alt="" />
           <input
             type="search"
             name="pesquisa"
@@ -70,17 +126,24 @@
           >
         </li>
       </ul>
-      <div>
-        <figure>
+      <div class="close">
+        <figure class="close2">
           <img src="../img/photo.jpg" alt="Foto do usuário" />
         </figure>
 
-        <p>Eleanor Pena</p>
-        <p>Veterinária</p>
+        <div class="close2">
+          <p>Eleanor Pena</p>
+          <p>Veterinária</p>
+        </div>
+
+        <figure class="close2">
+          <img src="../img/log-out.svg" alt="Fechar sidebar" />
+        </figure>
       </div>
     </div>
-    <div>
+    <div class="contents">
       <h1>Dashboard</h1>
     </div>
+    <script src="../js/script.js"></script>
   </body>
 </html>
